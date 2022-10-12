@@ -351,8 +351,8 @@
 
  }
 
- .team-icon-propertis:hover .team-list-icon,
- .team-icon-propertis:focus .team-list-icon {
+ .icon:hover .team-list-icon,
+ .icon:focus .team-list-icon {
      fill: var(--primary-white-color);
  }
 
@@ -592,8 +592,8 @@
 
  }
 
- .social-icon-propertis:hover .social-list-icon,
- .social-icon-propertis:focus .social-list-icon {
+ .social-link:hover .social-list-icon,
+ .social-link:focus .social-list-icon {
      fill: var(--primary-white-color);
  }
 
