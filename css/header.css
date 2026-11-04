@@ -1,0 +1,111 @@
+.header {
+    position: relative;
+    border-bottom: 1px solid #e7e9fc;
+   
+    color: #2e2f42;
+    font-style: normal;
+
+}
+.header-container{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0;
+
+        /* display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; */
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+        
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+}
+
+.header nav a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navigation{
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
+margin-right: auto;
+}
+.nav-list{
+    display: flex;
+      align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row; 
+        gap: 40px;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-left: 0;
+              
+         
+} 
+
+.header nav a:hover,
+.header nav a:focus {
+    color: #404bbf;
+}
+
+.header address a {
+    /* display: inline-block; */
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header address a:hover,
+.header address a:focus {
+    color: #404bbf;
+}
+
+.logo {
+    display: inline-block;
+  
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+    margin-right: 76px;
+    padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+.contact{
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   flex-direction: row;
+     gap: 40px; 
+    padding-top: 24px;
+        padding-bottom: 24px;
+
+
+}
+.contact-list-item{
+    gap: 40px;
+}
+
+ .contact-list-link{
+    display: inline-block;
+   
+ }
+/* .nav-list-item:not(:last-child){
+
+    margin-right: 40px;
+} */
+
