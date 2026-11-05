@@ -7,6 +7,27 @@ flex-wrap: nowrap;
 
 
 }
+ .features-icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* height: 120px;
+     background-color: var(--background-light);
+     border-radius: 4px;*/
+     margin-bottom: 8px; 
+
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+
+ }
+ .icon-antenna{
+    background-repeat: no-repeat;
+        width: 64px;
+        height: 64px;
+ }
 /* .sr-only
 {
     position: fixed;
