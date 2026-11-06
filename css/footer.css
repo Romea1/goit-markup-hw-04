@@ -51,7 +51,7 @@ margin-right: 120px;
 .footer-social-list {
     display: flex;
     margin-top: 16px;
-    gap: 16px;
+  
 }
  .social-link {
      display: flex;
@@ -72,7 +72,9 @@ background: #4d5ae5;
       background-color: #31d0aa;;
 
   }
-
+ .footer-social-list-item:not(:last-child) {
+     margin-right: 16px;
+ }
   /* .social-link:hover .social-list-icon,
   .social-link:focus .social-list-icon {
       fill: var(--primary-white-color);
