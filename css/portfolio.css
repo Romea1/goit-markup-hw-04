@@ -11,7 +11,7 @@
     gap: 24px;
 }
 
-.portfolio h2 {
+.portfolio-h2 {
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -20,8 +20,14 @@
     color: #2e2f42;
     text-align: center;
 }
-
-.portfolio h3 {
+.card-sub-title {
+display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.card-title {
     display: block;
     font-weight: 500;
     font-size: 20px;
@@ -31,13 +37,15 @@
     margin-bottom: 8px;
 }
 
-.portfolio p {
-
-    display: block;
+.overlay-text {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #f4f4fd;
+
+    
 }
 
 .portfolio-content {
