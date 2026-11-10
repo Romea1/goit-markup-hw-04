@@ -69,7 +69,7 @@ display: flex;
 
 }
 .icon {
-
+    
  display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ background: #4d5ae5;
 }
  .team-list-icon {
     color: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
  }
 
  .icon:hover,
@@ -91,7 +91,3 @@ background: #4d5ae5;
 
  }
 
- /* .icon:hover .team-list-icon,
- .icon:focus .team-list-icon {
-     fill: var(--primary-white-color);
- } */

@@ -42,10 +42,10 @@ button:focus {
     color: #404bbf;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
     color: #404bbf;
-}
+} */
 
 .web-blue {
     color: #4d5ae5;
